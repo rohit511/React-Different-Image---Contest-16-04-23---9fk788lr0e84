@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/App.css';
-import programmingGif from "../assets/";
+import programmingGif from "../assets/programming.gif";
 
 const GIF = () => {
   return (
-    <img src= {programmingGif} alt='programmingGif'className='import-image' height={200}/>
+    <img src= {programmingGif} alt='programming-gif'className='import-image' height={200}/>
   )
 }
 
